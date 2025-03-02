@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hamro Kalika Sunchadi Pasal - Your trusted place for gold and silver jewelry in Lamki, Kailali.">
+    <meta name="keywords" content="gold, silver, jewelry, Lamki, Kailali, trusted jewelry store">
+    <meta name="author" content="Hamro Kalika Sunchadi Pasal">
+    <title>Hamro Kalika Sunchadi Pasal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic CSS for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        header .hero-section {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        header .hero-section img {
+            width: 100%;
+            height: auto;
+            max-height: 450px;
+            object-fit: cover;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background: #f4f4f4;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .map iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form label, form input, form textarea, form button {
+            width: 100%;
+            max-width: 500px;
+            margin: 5px 0;
+        }
+        form button {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #555;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            .gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+            header .hero-section img {
+                max-height: 300px;
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+            header .hero-section img {
+                max-height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-section">
+            <h1>Welcome to Hamro Kalika Sunchadi Pasal</h1>
+            <img src="images/hero-image.jpg" alt="Hero Image - Hamro Kalika Sunchadi Pasal">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gold-silver">Gold & Silver</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#promotions">Promotions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Hamro Kalika Sunchadi Pasal</h1>
+            <p>Your trusted place for gold and silver jewelry.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Hamro Kalika Sunchadi Pasal has been serving the community with exquisite jewelry for over a decade.</p>
+            <p>“Your trusted partner for unique designs, exquisite craftsmanship, and purity guarantees. Visit us in Lamki, Kailali.”</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="gallery">
+                <img src="C:\Users\lenovo\Desktop\WhatsApp Image 2024-06-11 at 20.19.05_a8ab23ef.jpg"   height="100" width="100" 1">
+                <img src="C:\Users\lenovo\Desktop\2.jpg" height="100" width="100"alt="Gold jewwlry">
+                <img src="C:\Users\lenovo\Desktop\3.jpg" height="100" width="100" alt="Silver Jewelry">
+                <img src="C:\Users\lenovo\Desktop\4.jpg" height="100" width="100"  alt="Pendant">
+                <img src="C:\Users\lenovo\Desktop\5.jpg" height="100" width="100"  alt="Product 5">
+                <img src="C:\Users\lenovo\Desktop\6.jpg" height="100" width="100" alt="Product 6">
+                <img src="C:\Users\lenovo\Desktop\8.jpg" height="100" width="100" alt="Product 7">
+                <img src="C:\Users\lenovo\Desktop\9.jpg" height="100" width="100" alt="Product 9">
+                <img src="C:\Users\lenovo\Desktop\10.jpg" height="100" width="100" alt="Product 10">
+                <img src="C:\Users\lenovo\Desktop\11.jpg" height="100" width="100" alt="Product 11">
+                <img src="C:\Users\lenovo\Desktop\2.jpg" height="100" width="100" alt="Product 12">
+              
+            </div>
+        </section>
+
+        <section id="gold-silver">
+            <h2>Gold & Silver</h2>
+            <h3>Gold</h3>
+            <p>Gold has been valued for its beauty, durability, and rarity. Here are some key points:</p>
+            <ul>
+                <li><strong>Purity:</strong> Measured in karats, with 24K being pure gold.</li>
+                <li><strong>Uses:</strong> Jewelry, electronics, and investment.</li>
+                <li><strong>Care:</strong> Clean regularly to maintain shine.</li>
+            </ul>
+            <h3>Silver</h3>
+            <p>Silver is versatile and affordable. Key points:</p>
+            <ul>
+                <li><strong>Purity:</strong> Sterling silver is 92.5% pure.</li>
+                <li><strong>Uses:</strong> Jewelry, cutlery, and industry.</li>
+                <li><strong>Care:</strong> Polish regularly to prevent tarnishing.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Address:</strong> Lamki, Chuha-1, Kailali</p>
+                <p><strong>Phone:</strong> +977-9851202054</p>
+                <p><strong>Email:</strong> koiraladurga766@gmail.com</p>
+                <p><strong>Location:</strong> <a href="https://www.google.com/maps/place/Hamro+kalika+Sunchadi+Pasal/@28.6281251,81.1505642,17z/data=!3m1!4b1!4m6!3m5!1s0x39a2130078e1756f:0x941c42e8770f3d90!8m2!3d28.6281204!4d81.1531391!16s%2Fg%2F11y6b7sjg1?entry=ttu">View on Google Maps</a></p>
+            </div>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <p>Read what our customers have to say about us...</p>
+        </section>
+
+        <section id="promotions">
+            <h2>Special Offers</h2>
+            <div>
+                <p>“The magic of gold, the beauty of life.”</p>
+                <p>“Golden craftsmanship, a touch of trust.”</p>
+            </div>
+        </section>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.0745944593213!2d81.1505642!3d28.6281251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a2130078e1756f%3A0x941c42e8770f3d90!2sHamro%20kalika%20Sunchadi%20Pasal!5e0!3m2!1sen!2snp!4v1701337607000!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hamro Kalika Sunchadi Pasal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
